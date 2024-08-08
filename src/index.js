@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ShowHideValue from './Component/ShowHideValue';
+import Titel from './Component/Titel';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Titel/>
+    <ShowHideValue/>
+    
   </React.StrictMode>
 );
 
